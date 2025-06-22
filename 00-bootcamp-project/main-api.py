@@ -3,8 +3,11 @@ import csv
 
 import requests
 
+# ดึง data มาจาก api ที่กำหนด และ query ลงใน CSV
 
 parser = configparser.ConfigParser()
+
+# อ่านไฟล์ pipeline ซึ่ง pipeline.conf เป็น ไฟล์ที่ทำให้เราสามารถดึง data มาจาก source
 parser.read("pipeline.conf")
 host = parser.get("api_config", "host")
 port = parser.get("api_config", "port")

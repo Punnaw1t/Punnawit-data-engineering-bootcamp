@@ -3,15 +3,21 @@ import configparser
 
 import psycopg2
 
+# ดึง data มาจาก postgress Database และ query ลงใน CSV
 
 parser = configparser.ConfigParser()
+
+# อ่านไฟล์ pipeline ซึ่ง pipeline.conf เป็น ไฟล์ที่ทำให้เราสามารถดึง data มาจาก source
 parser.read("pipeline.conf")
+
+
 dbname = parser.get("postgres_config", "database")
 user = parser.get("postgres_config", "username")
 password = parser.get("postgres_config", "password")
 host = parser.get("postgres_config", "host")
 port = parser.get("postgres_config", "port")
 
+# create cursor to connect
 conn_str = f"dbname={dbname} user={user} password={password} host={host} port={port}"
 conn = psycopg2.connect(conn_str)
 cursor = conn.cursor()

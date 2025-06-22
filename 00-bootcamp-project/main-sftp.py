@@ -2,8 +2,11 @@ import configparser
 
 import pysftp
 
+# ดึง data มาจาก sftp และ query ลงใน CSV
 
 parser = configparser.ConfigParser()
+
+# อ่านไฟล์ pipeline ซึ่ง pipeline.conf เป็น ไฟล์ที่ทำให้เราสามารถดึง data มาจาก source
 parser.read("pipeline.conf")
 username = parser.get("sftp_config", "username")
 password = parser.get("sftp_config", "password")
