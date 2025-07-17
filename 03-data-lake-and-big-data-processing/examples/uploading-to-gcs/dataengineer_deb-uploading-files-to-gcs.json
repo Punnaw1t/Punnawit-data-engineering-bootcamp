@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "poetic-fact-462916-g2",
+  "private_key_id": "5660c1cb4663e4b07266a95fa8c356a2d4c8779d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDwX9KngBg41xB0\nn2lIlMe2J1tzwa4YTwQQrtXAmh0eR/h8ho/ys56yxPXmNazs5Kw0N+lo9+MBw9rp\nGvM4L1rcSdlQosLtupXDBmPw91TxXSPkgi48E7jni0rWFwEYIoHZPCciwWiruMWT\nu//eMaHDn2caz6vi5GXo+1JNDMKuxK0H88xqnC9ls/iBeREDBPqtmqWKwx3rQAFI\nO4USWi1GJ/F8xSgr8GZ3wCEfgitsnVHQ0xhW76zyL7zpU+uhUrdvaXHj8ULYdx/1\n+p6biqLM7iI1+su4tYGuDxVWzkMP/OfCyuE8sH7z7uFpeS31b4myynxoNYN62W4C\nWa1nGkTfAgMBAAECggEADBcjG6J91Wdm/IsnAev5Z2SaK0LfYs8RwHFJ7zVjBI4s\n9C/WEAwIuJ1RN+XqCHwa6YFBxvlZY4rzOQXOY64+h8c9lS/H8o3zSeetGnEXOEnR\nMzAjh4lGo+2CLC2PQl08MN+mhPLYCjqxtdr7pVEMjBOra5JQn+08C63kd3gAHpy+\n0ZwUlzv7Fa/pX95M7HpQn1kHcj5vzZU2gt1Ppd8+8IIb2zpcDGhfd0LWpivPHhgO\nj5VBsqMTxGFREn58o9dTlbDDPRBcc37D3ZTA6eaRbdvOKku3Sck11gQBHO2QZ6Jf\nlbH9xpZv4KEy/4aWr+qCtWg1MQ3yd/2Ai35I9632LQKBgQD8nQuzmnq3hLxHT0mK\nx7iKzGS5G2CbwhL/6B1KLJzsNUX2Ey5xr/S+Mf57szzzwn+jC/cUyWsv1YhEyB26\no40x8QGEJAAsCX6QBBDVW7BkqJGlyw4kN+OXHNKacg1DqNSxiG67YcSVAe7ch5Hd\nNCH6d2uR5w9BG2xUF/JyJmM0VQKBgQDzmMXrVMYnPslMTBxZgw9lgyfxgUcFgm/c\nEhq65NvWQQql4tol+cp5LrKgNLqcA5ftCae2pHU22XrRalrZiplWmBApC1V+oEwc\nNB5OiJH9Aw6LAFyOkdPq19nT9nbMFGahNpeBJvTaE2WZF+sjiNvDjkaZvirFOjLg\n+2cP2hDoYwKBgGs7jzgSn30/z1zF/4X1+hSRZ0BcqsnzvHT9Z1GRVpu+kZA/3DtO\nYipKtqh0Ea+4JM5lyeD9D48iqdHo0RXlT46fq/EYByqqbRtdXnfzkBFqrUkfxUUC\npI4FIjGFsLPD+2XRcJAClJxcUbUzp2urMbFM+FDbMNKGfZnFAJoMSZhxAoGASCNl\n+VsRk220jzO68YcueBFvMsXmEmueVL3HzLEZqUl5rcaQc86Vd22s2GTFHo6x3zCM\nyjnJvISLKpkkbmftIQfHQWBp4SX3ZCLLFta65QKSu/dPcakd6N4jU/IZHDaube+M\nzmKLAEnePIgoyk0tR6xKnB0E7YNereHFk5wwhaECgYAUS+IZGmh/5+dqTblHEAsY\nzPV6DvGtIuQOifYTcdrX58ORPui58A+l+3wRJDHDfhtDeGOhStPmfDkc3W9c81az\nswLj+JUw4Bs7HlqXLncC4cqWuHdJidP1gpYACjDn0iqBcskbBRKtY7CA2LA+oKUw\ny3UsXqWdmBa23eDKWe5low==\n-----END PRIVATE KEY-----\n",
+  "client_email": "deb-uploading-files-to-gcs@poetic-fact-462916-g2.iam.gserviceaccount.com",
+  "client_id": "113484442755084068653",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deb-uploading-files-to-gcs%40poetic-fact-462916-g2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+

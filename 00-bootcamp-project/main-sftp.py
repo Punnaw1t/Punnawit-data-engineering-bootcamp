@@ -2,7 +2,7 @@ import configparser
 
 import pysftp
 
-# ดึง data มาจาก sftp และ query ลงใน CSV
+# ดึง data มาจาก sftp และ query ลงใน CSV 
 
 parser = configparser.ConfigParser()
 

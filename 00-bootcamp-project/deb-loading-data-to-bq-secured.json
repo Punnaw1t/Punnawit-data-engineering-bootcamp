@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "poetic-fact-462916-g2",
+  "private_key_id": "442e36debe47d14dea53776cbebe89d29835aa72",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDsg9EndLXUBjJd\nusl9JoO5E/6G/FQLDvcCtjmpXanEWv6yB600ipP2bbEDtd6fG9Ck8ZRSO3+naLLF\ny+Uz6KhejhkT1G4GTI9CiTmg7KrNHPmdlKX3kLulQO5jWIk7amhJmrPiJixDZCY7\nY2a0VrR4WWLBs2nTCJFAq9Tj1LsG2nAGzrHZ6yM+U8WffJNe6zBI7OlqvEfiNHhj\n82C4beV6HdFT/sKFxNovC6BlJZJiwcMjcUT6Psb8RNskPuiR71QqFaZ8bSTqoBi/\n/Bfm54wevs4EpsfzMr7piXhfS9mYyqoiE65HWC+sxcqXNzDk/C+5bLc9HCzWvwRE\nSSlEtlOTAgMBAAECggEAG68GMT8Y9VtQU+ZEJVD3xBcSCMzKLY0v3nJj524eK+yW\nuVHqtSavUP3f5VZJW4hO8K+SM9nhBEBeBIbsKhpGcuLhDpAj3LrjXd9gDnUFPQLy\nOL6oeoTHYf1qqdg4H+tBj7P68DKVpcG4M+VbpSos75VO2OteLKRpFA/I2G4TAicf\nsNy5f7CRLAS2ETemblfAwBZy+jFsR87iHobRgrCSowVhzJPlfVQE778DGi/CtZ8B\nFSbBVl2z5OI4GlDK8ejvhKLEfs59AWwDcJJ1UHG40UYdgN/sdiqmozNKAW0SkoNI\nPnsW7MouBSR9gV10cwZNGH702kwL5BS1zjzcvVzJqQKBgQD3oFdjUk+R9zC0VpES\n2OGZATgNfITT0K9pfGAHP/QOLLHJA/TuoBVLEyZFfCm8s/7tjdxcl1xbrbv2fV2G\nv+GFVekE5k5CckY4dLtfwN+1ngik9LdIwqQW6MzJfjZWsECvile0EH2AJ6/i2Rya\ndaIDk9Ap4Sm5/9TO0biJmjcZ5QKBgQD0g0k1FgoAY3ldpLQdkxR3nW8CJ2dTuQtA\nUMSBgCYZQoq9ugGMkqNehsog1d2rYxT5SaGjxLsqHF9HN1pqTpqXi4NUE5F1YOxJ\nIXDHiViGE0kbUCnJilvWKXQw+XoHej93YVN5iL8o4npeODcG82pSGSDlSX7XFgkV\nAuDimocAFwKBgQCWHtO7t+PbVuNlAPIUXf1ul8mWi32vN92P8sH4wzG/AiOJ/OcZ\nX11pVSOnjl1zNCABfjYwv+ZTAiFojpoLnfonrmyE9uZM7CBcC5CovTIiVbth3aXb\n63w1E09LfEOPDG06voDq/fBHqEe+G+d2UIg26P6S1RlJ1Kn79DKO4To0bQKBgD/t\n34Mouv61A3Nvb8RXwz8vA2otwT9Ln1x2gZpWVh++nSXT7znA0UQSu+Bv6mA4LLCt\nBr0Z39G3z1WAbHxlBthemrytzRdCeyT3wFP7XhDYFAI3KGXQbgiFmCKB59zyootk\n//1Duq9G37WovwJrPD4w4b/xQl+cHE3JDeFRg8CLAoGAXkXxPwE5aJjxacwgv2Fi\njDlzPBEOfijR2ki2s2NfARp3dUVfZ3gkQfK5hafb1BkjnuIyvL/lM1/lvcZAU5Ui\n1GSgxzBGsp/CYO8mWV1VAdmWB2RC6B3owm9ehpEL43/FzUvjGBZDuQL6+JzJABLM\nOWeB3CctMR48aJHrQ7yaF84=\n-----END PRIVATE KEY-----\n",
+  "client_email": "deb-loading-data-to-bq-secured@poetic-fact-462916-g2.iam.gserviceaccount.com",
+  "client_id": "110971299619252533563",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deb-loading-data-to-bq-secured%40poetic-fact-462916-g2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

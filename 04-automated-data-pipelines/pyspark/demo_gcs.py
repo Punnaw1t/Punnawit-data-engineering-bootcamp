@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 
 
-KEYFILE_PATH = "/opt/spark/pyspark/YOUR_KEYFILE.json"
+KEYFILE_PATH = "/opt/spark/pyspark/027-uploading-gcs.json"
 
 # GCS Connector Path (on Spark): /opt/spark/jars/gcs-connector-hadoop3-latest.jar
 # GCS Connector Path (on Airflow): /home/airflow/.local/lib/python3.9/site-packages/pyspark/jars/gcs-connector-hadoop3-latest.jar
@@ -22,17 +22,17 @@ spark = SparkSession.builder.appName("demo_gcs") \
     .config("google.cloud.auth.service.account.json.keyfile", KEYFILE_PATH) \
     .getOrCreate()
 
-GCS_FILE_PATH = "gs://YOUR_BUCKET_PATH_TO_CSV_FILE"
+GCS_FILE_PATH = "gs://deb-bootcamp-027/raw/greenery/addresses/addresses.csv"
 df = spark.read.option("header", True).csv(GCS_FILE_PATH)
 df.show()
 
-df.createOrReplaceTempView("YOUR_TABLE_NAME")
+df.createOrReplaceTempView("my_addresses")
 result = spark.sql("""
     select
         *
 
-    from YOUR_TABLE_NAME
+    from my_addresses
 """)
 
-OUTPUT_PATH = "gs://YOUR_BUCKET_PATH_TO_OUTPUT"
+OUTPUT_PATH = "gs://deb-bootcamp-027/my_spark"
 result.write.mode("overwrite").parquet(OUTPUT_PATH)
