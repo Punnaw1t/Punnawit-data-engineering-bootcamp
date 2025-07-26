@@ -1,0 +1,21 @@
+networkrail:
+  target: dbt_Punnawit
+
+  outputs:
+    dbt_Punnawit:
+      type: bigquery
+      method: service-account
+      project: poetic-fact-462916-g2
+      dataset: dbt_Punnawit
+      threads: 1
+      keyfile: /workspaces/Punnawit-data-engineering-bootcamp/07-end-to-end-project/deb-uploading-files-to-bq.json
+      location: asia-southeast1
+
+    prod:
+      type: bigquery
+      method: service-account
+      project: poetic-fact-462916-g2
+      dataset: networkrail
+      threads: 1
+      keyfile: /workspaces/Punnawit-data-engineering-bootcamp/07-end-to-end-project/deb-uploading-files-to-bq.json
+      location: asia-southeast1
