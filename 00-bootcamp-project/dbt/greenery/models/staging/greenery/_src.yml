@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: greenery
+    schema: deb_bootcamp
+    database: poetic-fact-462916-g2
+
+    tables:
+      - name: users
+        description: Greenery users
+      - name: events
+        description: Greenery events
+      - name: addresses
+        description: Greenery addresses
+      - name: orders
+        description: Greenery orders
+      - name: order_items
+        description: Greenery order_items
+      - name: products
+        description: Greenery products
+      - name: promos
+        description: Greenery promos

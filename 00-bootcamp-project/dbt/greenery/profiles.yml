@@ -1,0 +1,42 @@
+greenery:
+
+  outputs:
+    dbt_Pun:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: "{{ env_var('DBT_ENV_SECRET_PG_PASSWORD') }}"
+      dbname: greenery
+      schema: dbt_Pun
+
+    prod:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: "{{ env_var('DBT_ENV_SECRET_PG_PASSWORD') }}"
+      dbname: greenery
+      schema: prod
+
+    dbt_Pun_bigquery:
+      type: bigquery
+      method: service-account
+      project: poetic-fact-462916-g2
+      dataset: dbt_Pun
+      threads: 1
+      keyfile: /workspaces/data-engineering-bootcamp/00-bootcamp-project/deb-loading-data-to-bq-secured.json
+      location: asia-southeast1
+
+    prod_bigquery:
+      type: bigquery
+      method: service-account
+      project: poetic-fact-462916-g2
+      dataset: deb_bootcamp
+      threads: 1
+      keyfile: /workspaces/data-engineering-bootcamp/00-bootcamp-project/deb-loading-data-to-bq-secured.json
+      location: asia-southeast1
+
+  target: dbt_Pun_bigquery

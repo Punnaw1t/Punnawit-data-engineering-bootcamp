@@ -15,13 +15,13 @@ confluent_bootstrap_servers = parser.get("config", "confluent_bootstrap_servers"
 confluent_key = parser.get("config", "confluent_key")
 confluent_secret = parser.get("config", "confluent_secret")
 
-GCP_PROJECT_ID = "YOUR_GCP_PROJECT_ID"
-BUCKET_NAME = "YOUR_BUCKET_NAME"
+GCP_PROJECT_ID = "poetic-fact-462916-g2"
+BUCKET_NAME = "deb-bootcamp-027"
 BUSINESS_DOMAIN = "networkrail"
 DESTINATION_FOLDER = f"{BUSINESS_DOMAIN}/raw"
-KEYFILE_PATH = "YOUR_KEYFILE_PATH"
+KEYFILE_PATH = "027-upload-to-gcs.json"
 TOPIC = "networkrail-train-movements"
-CONSUMER_GROUP = "YOUR_CONSUMER_GROUP"
+CONSUMER_GROUP = "deb027"
 
 consumer = KafkaConsumer(
     TOPIC,

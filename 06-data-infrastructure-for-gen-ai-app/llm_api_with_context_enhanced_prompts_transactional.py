@@ -4,8 +4,8 @@ from google import genai
 from google.genai import types
 
 
-# GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+# GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 
 
 def ask_gemini(client, model: str = "gemini-2.0-flash-001", prompt: str = ""):
@@ -64,10 +64,10 @@ prompt_with_context = f"""
 You are a helpful assistant. Use the following context to answer the question.
 
 Context:
-{context}
+{"In some cases, the context may be too long to fit in a single prompt, so you can split it into multiple parts." if len(context) > 1000 else context}
 
 Question:
-{question}
+{"" + question.strip() + " Please provide a detailed response."}
 """
 response = ask_gemini(client, prompt=prompt_with_context)
 

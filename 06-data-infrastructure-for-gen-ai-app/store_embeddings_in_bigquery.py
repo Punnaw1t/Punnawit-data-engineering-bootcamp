@@ -7,11 +7,11 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 
 
-GCP_PROJECT_ID = "YOUR_GCP_PROJECT_ID"
-DATASET_ID = "YOUR_DATASET_ID"
-KEYFILE = "YOUR_KEYFILE"
-# api_key = os.environ.get("GEMINI_API_KEY")
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+GCP_PROJECT_ID = "poetic-fact-462916-g2"
+DATASET_ID = "deb_bootcamp"
+KEYFILE = "/workspaces/data-engineering-bootcamp/06-data-infrastructure-for-gen-ai-app/deb-loading-data-to-bq-secured.json"
+api_key = os.environ.get("GEMINI_API_KEY")
+GEMINI_API_KEY = "AIzaSyCRbdOQqakgNCsfq-MZciuxAwR4au4-iBA"
 
 
 def get_embedding(client, model: str = "gemini-embedding-exp-03-07", text: str = ""):

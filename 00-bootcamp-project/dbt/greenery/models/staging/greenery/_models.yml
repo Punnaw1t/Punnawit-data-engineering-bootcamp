@@ -1,0 +1,59 @@
+version: 2
+
+models:
+
+  - name: stg_greenery__users
+    description: Greenery users
+    columns:
+      - name: user_id
+        description: User ID
+
+  - name: stg_greenery__events
+    description: Greenery events
+    columns:
+      - name: event_id
+        description: Event ID
+        data_tests:
+          - not_null
+          - unique
+      - name: event_type
+        description: Event Type
+        data_tests:
+          - accepted_values:
+              values: ['page_view', 'add_to_cart', 'checkout', 'package_shipped']
+      - name: user
+        description: User ID
+        # data_tests:
+        #   - relationships:
+        #       to: ref('my_users')
+        #       field: user_id
+
+  - name: stg_greenery__addresses
+    description: Greenery addresses
+    columns:
+      - name: address_id
+        description: Address ID
+
+  - name: stg_greenery__orders
+    description: Greenery orders
+    columns:
+      - name: order_id
+        description: Order ID
+
+  - name: stg_greenery__order_items
+    description: Greenery order_items
+    columns:
+      - name: order_id
+        description: Order Item ID
+
+  - name: stg_greenery__products
+    description: Greenery products
+    columns:
+      - name: product_id
+        description: Product ID
+
+  - name: stg_greenery__promos
+    description: Greenery promos
+    columns:
+      - name: promo_id
+        description: Promo ID

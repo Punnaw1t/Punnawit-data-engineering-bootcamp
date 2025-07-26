@@ -14,7 +14,7 @@ pysftp = "^0.2.9"
 psycopg2 = "^2.9.9"
 google-cloud-bigquery = "^3.34.0"
 google-cloud-storage = "^2.18.2"
-astronomer-cosmos = "==1.5.0"
+
 
 [build-system]
 requires = ["poetry-core"]
